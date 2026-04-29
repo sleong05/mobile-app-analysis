@@ -1,0 +1,2 @@
+{"issue": "insecure checkServerTrusted (empty)", "context": {"class": "g.a.a.a.f.i.a$c", "method": "g.a.a.a.f.i.a$c->checkServerTrusted([Ljava/security/cert/X509Certificate; Ljava/lang/String;)V", "body": "return-void"}, "details": {"reason": "no validation logic, returns immediately"}}
+{"issue": "insecure checkServerTrusted (empty)", "context": {"class": "h.a.a.f$a", "method": "h.a.a.f$a->checkServerTrusted([Ljava/security/cert/X509Certificate; Ljava/lang/String;)V", "body": "return-void"}, "details": {"reason": "no validation logic, returns immediately"}}

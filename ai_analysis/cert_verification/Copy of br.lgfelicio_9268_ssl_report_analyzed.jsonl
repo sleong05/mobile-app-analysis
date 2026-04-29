@@ -1,0 +1,1 @@
+{"issue": "insecure checkServerTrusted (empty)", "context": {"class": "com.RNFetchBlob.g$a", "method": "com.RNFetchBlob.g$a->checkServerTrusted([Ljava/security/cert/X509Certificate; Ljava/lang/String;)V", "body": "return-void"}, "details": {"reason": "no validation logic, returns immediately"}, "true_positive": true}

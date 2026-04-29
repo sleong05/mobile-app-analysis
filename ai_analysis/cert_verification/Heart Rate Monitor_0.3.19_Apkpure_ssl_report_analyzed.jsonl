@@ -1,0 +1,1 @@
+{"issue": "insecure checkServerTrusted (empty)", "context": {"class": "com.google.android.gms.common.net.zza", "method": "com.google.android.gms.common.net.zza->checkServerTrusted([Ljava/security/cert/X509Certificate; Ljava/lang/String;)V", "body": "return-void"}, "details": {"reason": "no validation logic, returns immediately"}, "true_positive": true}

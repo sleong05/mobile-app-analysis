@@ -1,0 +1,1 @@
+{"issue": "insecure checkServerTrusted (empty)", "context": {"class": "xfkj.fitpro.api.NetWorkManager$1", "method": "xfkj.fitpro.api.NetWorkManager$1->checkServerTrusted([Ljava/security/cert/X509Certificate; Ljava/lang/String;)V", "body": "return-void"}, "details": {"reason": "no validation logic, returns immediately"}}

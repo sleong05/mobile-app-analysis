@@ -1,0 +1,1 @@
+{"issue": "insecure checkServerTrusted (empty)", "context": {"class": "org.wlf.filedownloader.file_download.HttpConnectionHelper$1", "method": "org.wlf.filedownloader.file_download.HttpConnectionHelper$1->checkServerTrusted([Ljava/security/cert/X509Certificate; Ljava/lang/String;)V", "body": "return-void"}, "details": {"reason": "no validation logic, returns immediately"}}

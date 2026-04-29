@@ -1,0 +1,1 @@
+{"issue": "outdated api (android.permission.USE_FINGERPRINT)", "context": {"line": "<uses-permission android:name=\"android.permission.USE_FINGERPRINT\"/>", "line_number": 23, "file": "AndroidManifest.xml"}, "details": {"permission": "android.permission.USE_FINGERPRINT", "deprecated_at_api": 28, "app_target_sdk": 32}}

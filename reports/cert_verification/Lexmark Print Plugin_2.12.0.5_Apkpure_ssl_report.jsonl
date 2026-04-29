@@ -1,0 +1,1 @@
+{"issue": "insecure checkServerTrusted (empty)", "context": {"class": "com.lexmark.mobile.print.mobileprintcore.sso.d", "method": "com.lexmark.mobile.print.mobileprintcore.sso.d->checkServerTrusted([Ljava/security/cert/X509Certificate; Ljava/lang/String;)V", "body": "return-void"}, "details": {"reason": "no validation logic, returns immediately"}}

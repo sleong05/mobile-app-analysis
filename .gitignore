@@ -1,0 +1,6 @@
+*.zip
+*.log
+99_apks-9_per_category
+100_apps_a
+venv
+.env
