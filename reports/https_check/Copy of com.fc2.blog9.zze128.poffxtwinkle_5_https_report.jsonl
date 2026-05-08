@@ -1,0 +1,2 @@
+{"issue": "hardcoded HTTP URL in bytecode", "layer": "dex_strings", "context": {"url": "http://zze128.blog9.fc2.com/blog-entry-451.html"}, "details": {"reason": "Plaintext HTTP endpoint found as a string constant."}}
+{"issue": "mixed HTTP and HTTPS usage", "layer": "dex_strings", "context": {"http_count": 1, "https_count": 1, "http_sample": ["http://zze128.blog9.fc2.com/blog-entry-451.html"]}, "details": {"reason": "App uses HTTPS for some endpoints but falls back to HTTP for others."}}

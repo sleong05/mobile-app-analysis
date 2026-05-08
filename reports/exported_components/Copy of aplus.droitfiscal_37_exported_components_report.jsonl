@@ -1,0 +1,1 @@
+{"issue": "exported component with no permission protection", "layer": "manifest", "context": {"component_type": "activity", "component_name": "aplus.droitfiscal.Home", "exported": "true", "permission": null}, "details": {"reason": "Exported activity 'aplus.droitfiscal.Home' requires no permission \u2014 any third-party app can invoke it directly."}}

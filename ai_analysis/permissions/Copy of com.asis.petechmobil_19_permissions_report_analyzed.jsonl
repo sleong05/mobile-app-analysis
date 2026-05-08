@@ -1,0 +1,1 @@
+{"issue": "declared but unused permission", "context": {"permission": "android.permission.RECORD_AUDIO"}, "details": {"reason": "Permission is listed in the manifest but no matching API call or string reference was found in the DEX bytecode.", "indicators_checked": ["startRecording", "AudioRecord", "MediaRecorder"]}, "true_positive": true}

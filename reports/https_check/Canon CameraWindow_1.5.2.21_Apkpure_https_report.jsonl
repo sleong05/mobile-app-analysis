@@ -1,0 +1,1 @@
+{"issue": "raw (non-SSL) socket usage", "layer": "dex_invocations", "context": {"sample_invocations": ["v2, Ljava/net/SocketException;->printStackTrace()V"]}, "details": {"reason": "Plain Socket invocations found \u2014 raw TCP has no transport encryption."}}
