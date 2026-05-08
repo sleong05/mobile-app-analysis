@@ -23,8 +23,6 @@ PROMPT = """You are labeling a static-analysis alert. The scanner detects this v
 
 Decide whether the alert below is a TRUE POSITIVE (the scanner correctly identified a checkServerTrusted method that fails to validate the certificate chain) or a FALSE POSITIVE (the scanner is wrong — e.g., the method is abstract / has no body because it's an interface stub the framework supplies elsewhere, the bytecode actually does validate but the scanner missed it, or the class isn't really a TrustManager).
 
-Do NOT consider whether the code is reachable at runtime, whether it's in test/library code, or whether it's "intended" to be insecure. Only judge whether the scanner's claim about the method body matches reality.
-
 Class: {cls}
 Method: {method}
 Scanner verdict: {issue}
