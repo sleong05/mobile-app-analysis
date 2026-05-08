@@ -6,3 +6,5 @@ venv
 .env
 app_decoded*/
 *.log
+__pycache__/
+__pycache__
